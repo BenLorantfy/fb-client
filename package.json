@@ -1,6 +1,6 @@
 {
   "name": "fb-client",
-  "version": "2.10.0",
+  "version": "2.10.2",
   "description": "A repo for easily importing the facebook web client in client-side code",
   "main": "index.js",
   "scripts": {

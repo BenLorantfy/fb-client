@@ -30,7 +30,7 @@ function loader(appId, optionsInput){
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk')); 
 
-        timeout = setInterval(function(){
+        timeout = setTimeout(function(){
             rejected = true;
             reject(new Error("Timed out while trying to load fb client"));
         },timeoutSeconds * 1000);
