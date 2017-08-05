@@ -1,5 +1,6 @@
 
-function loader(appId, options){
+function loader(appId, optionsInput){
+    var options = optionsInput || {};
     var timeout = setTimeout(function(){}, 0);
     var timeoutSeconds = options.timeout || 10;
     var rejected = false;
