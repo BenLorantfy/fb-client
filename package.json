@@ -1,0 +1,19 @@
+{
+  "name": "fb-client",
+  "version": "2.10.0",
+  "description": "A repo for easily importing the facebook web client in client-side code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenLorantfy/fb-client.git"
+  },
+  "author": "BenLorantfy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BenLorantfy/fb-client/issues"
+  },
+  "homepage": "https://github.com/BenLorantfy/fb-client#readme"
+}
